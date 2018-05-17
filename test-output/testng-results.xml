@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1791" started-at="2017-11-17T13:40:11Z" finished-at="2017-11-17T13:40:13Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1791" started-at="2017-11-17T13:40:11Z" finished-at="2017-11-17T13:40:13Z">
+      <class name="getRequest.GetData3">
+        <test-method status="PASS" signature="testResponseCode()[pri:0, instance:getRequest.GetData3@5f375618]" name="testResponseCode" duration-ms="1291" started-at="2017-11-17T14:40:11Z" finished-at="2017-11-17T14:40:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResponseCode -->
+        <test-method status="PASS" signature="testBody()[pri:1, instance:getRequest.GetData3@5f375618]" name="testBody" duration-ms="216" started-at="2017-11-17T14:40:12Z" finished-at="2017-11-17T14:40:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBody -->
+        <test-method status="PASS" signature="testGet()[pri:2, instance:getRequest.GetData3@5f375618]" name="testGet" duration-ms="75" started-at="2017-11-17T14:40:13Z" finished-at="2017-11-17T14:40:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet -->
+        <test-method status="PASS" signature="testStatusCode1()[pri:3, instance:getRequest.GetData3@5f375618]" name="testStatusCode1" duration-ms="73" started-at="2017-11-17T14:40:13Z" finished-at="2017-11-17T14:40:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStatusCode1 -->
+        <test-method status="PASS" signature="testStatusCode2()[pri:4, instance:getRequest.GetData3@5f375618]" name="testStatusCode2" duration-ms="104" started-at="2017-11-17T14:40:13Z" finished-at="2017-11-17T14:40:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStatusCode2 -->
+      </class> <!-- getRequest.GetData3 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
