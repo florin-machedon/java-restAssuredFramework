@@ -7,7 +7,7 @@ import java.net.URI;
 import java.net.URISyntaxException;
 
 import org.apache.http.HttpStatus;
-import org.testng.Assert;
+import org.testng.AssertJUnit;
 import org.testng.annotations.Test;
 
 import io.restassured.http.ContentType;
@@ -24,7 +24,7 @@ public class GetData3 {
 	public void testResponseCode() {
 		int code = get(urlJSON).getStatusCode();
 		System.out.println("Status code is: " + code);
-		Assert.assertEquals(code, 200);
+		AssertJUnit.assertEquals(code, 200);
 	}
 
 	@Test(priority = 1)
@@ -49,7 +49,7 @@ public class GetData3 {
 		// Capture the status code or any other info: thenReturns
 		int code = given().accept(ContentType.XML).when().get(new URI(urlXML)).thenReturn().statusCode();
 		System.out.println("Status code is: " + code);
-		Assert.assertEquals(HttpStatus.SC_OK, code);
+		AssertJUnit.assertEquals(HttpStatus.SC_OK, code);
 	}
 
 	@Test(priority = 4)
